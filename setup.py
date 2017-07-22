@@ -10,7 +10,7 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='pyethereum_keys',
+    name='pyeth_keys',
     version='1.1.0',
     description='Creating and reading keyfiles',
     long_description=readme,
