@@ -10,9 +10,9 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='py_ssz',
-    version='1.0.0',
-    description='Python implementation of SimpleSerialize',
+    name='pyeth_keys',
+    version='1.1.0',
+    description='Creating and reading keyfiles',
     long_description=readme,
     author='Vitalik Buterin',
     author_email='',
