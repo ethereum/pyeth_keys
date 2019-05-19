@@ -2,8 +2,10 @@ import os
 import pbkdf2
 import sys
 import json
+import binascii
 
-from rlp.utils import decode_hex, encode_hex
+decode_hex = lambda x: binascii.unhexlify(x)
+encode_hex = lambda x: binascii.hexlify(x).decode('utf-8')
 
 try:
     scrypt = __import__('scrypt')
